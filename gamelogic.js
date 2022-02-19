@@ -4,20 +4,21 @@ var transparency = 0;
 var backing = 0;
 
 var playerNames = {
-    A=``,
-    B=``,
-    C=``,
-    D=``
+    A: ``,
+    B: ``,
+    C: ``,
+    D: ``
 };
 
 var playerCoins = {
-    A=0,
-    B=0,
-    C=0,
-    D=0
+    A: 0,
+    B: 0,
+    C: 0,
+    D: 0
 };
 
-
+const scenario = JSON.parse(sessionStorage.scenario);
+console.log(`Scenario from memory is `+scenario);
 // -------------------------
 // To update the text inside span
 // $("#id")[0].textContent="";
@@ -84,14 +85,14 @@ const scenario1 = {
 };
 
 
-const scenario1 = {
-    index: 1,
-    text: ``,
-    choice1: ``,
-    choice2:``,
-    choice3: ``,
-    delta1: [-5, 5, 0, -5],
-    delta2: [-5, 10,5, 0],
-    delta3: [5, 10, -5, 5],
-    preamble: [1,1,1,1,1,1,1,1,1,1,1,1,1,1,],
-};
+// const scenario1 = {
+//     index: 1,
+//     text: ``,
+//     choice1: ``,
+//     choice2:``,
+//     choice3: ``,
+//     delta1: [-5, 5, 0, -5],
+//     delta2: [-5, 10,5, 0],
+//     delta3: [5, 10, -5, 5],
+//     preamble: [1,1,1,1,1,1,1,1,1,1,1,1,1,1,],
+// };
