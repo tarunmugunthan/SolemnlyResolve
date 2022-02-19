@@ -66,6 +66,7 @@ function getRandomIntInclusive(min, max) {
 }
 
 const scenario1 = {
+    index: 1,
     text: `Parliament has passed a new law, which states that village communities shall be responsible for protection of biodiversity in the forest. The law also gives village communities the right to convert forest villages into revenue villages, allowing construction, sale and commercial activity.`,
     choice1: `Conservationists argue against the law stating that such a move will only favour influential village communities and also lead to degradation of forest land over time.
 
