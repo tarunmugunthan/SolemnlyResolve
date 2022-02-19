@@ -77,20 +77,21 @@ const scenario1 = {
     choice3: `Industry and farmer association argue in favour of the law stating that this will enable better food security and improvement of livelihood opportunities for local communities.
 
     Support their demand of implementing the law in its entirety.`,
-    delta1: [-10, 10, 0, -10],
-    delta2: [-10, 20, 10, 0],
-    delta3: [10, 20, -10, 10],
-    cad: `"All forms of natural wealth, such as land, forests, mines and minerals, waters of rivers, lakes or seas surrounding the coasts of the Union shall belong to the people of India. No private property shall be allowed in any of these forms of the country's wealth; nor shall they be owned, worked, managed or developed, except by public enterprise exclusively" - KT Shah`
+    delta1: [-5, 5, 0, -5],
+    delta2: [-5, 10,5, 0],
+    delta3: [5, 10, -5, 5],
+    preamble: [1,1,1,1,1,1,1,1,1,1,1,1,1,1,],
 };
 
 
-// const scenario1 = {
-//     text: ``,
-//     choice1: ``,
-//     choice2:``,
-//     choice3: ``,
-//     delta1: [-10,10,0,-10],
-//     delta2: [-10,20, 10,0],
-//     delta3: [10,20, -10, 10],
-//     cad: ``,
-// };
+const scenario1 = {
+    index: 1,
+    text: ``,
+    choice1: ``,
+    choice2:``,
+    choice3: ``,
+    delta1: [-5, 5, 0, -5],
+    delta2: [-5, 10,5, 0],
+    delta3: [5, 10, -5, 5],
+    preamble: [1,1,1,1,1,1,1,1,1,1,1,1,1,1,],
+};
